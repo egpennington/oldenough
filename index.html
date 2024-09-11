@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>Am I Old Enough?</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>Can I Drink or Drive?</h1>
+            <p class="tagline">Check your age, know your rights worldwide</p>
+            <div class="form-container">
+                <div class="input-container">  
+                    <label for="age">How old are you?</label>
+                    <input type="number" id="age" name="age" placeholder="Enter your age">
+                </div>     
+                <div class="input-container">
+                    <label for="country">Select your country</label>
+                    <select id="country">
+                        <option value="Pick">&#x2690; Pick a country</option>
+                        <option value="USA">&#x1F1FA;&#x1F1F8; USA</option>
+                        <option value="Germany">&#x1F1E9;&#x1F1EA; Germany</option>
+                        <option value="Japan">&#x1F1EF;&#x1F1F5; Japan</option>
+                        <option value="Australia">&#x1F1E6;&#x1F1FA; Australia</option>
+                        <option value="UK">&#x1F1EC;&#x1F1E7; UK</option>
+                        <option value="Canada">&#x1F1E8;&#x1F1E6; Canada</option>
+                        <option value="France">&#x1F1EB;&#x1F1F7; France</option>
+                        <option value="Brazil">&#x1F1E7;&#x1F1F7; Brazil</option>
+                        <option value="China">&#x1F1E8;&#x1F1F3; China</option>
+                        <option value="India">&#x1F1EE;&#x1F1F3; India</option>
+                        <option value="Mexico">&#x1F1F2;&#x1F1FD; Mexico</option>
+                        <option value="South Korea">&#x1F1F0;&#x1F1F7; South Korea</option>
+                    </select>
+                </div>
+                <button id="btn-check">Check</button>          
+                <p id="result-display" class='resultDisplay'></p>
+            </div>
+            <footer>
+                &copy; <span id="year"></span> PenningtonProgramming. All rights reserved.
+            </footer>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
+
