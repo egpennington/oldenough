@@ -45,6 +45,10 @@ window.onload = detectCountry;
 
 // Check button click event listener
 checkButton.addEventListener('click', function () {
+    const ageInput = document.getElementById('age');
+    if (ageInput.value <= 0) {
+        ageInput.value = '';
+    }
     let message = '';
     const age = parseInt(ageInput.value);
     const country = countryInput.value;
